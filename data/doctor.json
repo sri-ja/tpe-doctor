@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dr-789",
+    "personalInfo": {
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "contactNumber": "+1-555-789-0123",
+      "email": "sarah.johnson@hospital.org"
+    },
+    "patients": {
+      "active": ["p-123456", "p-234567", "p-345678"],
+      "old": ["p-123458", "p-234568", "p-345679"],
+      "total": 24
+    },
+    "pendingReviews": ["ses-003", "ses-008", "ses-012"]
+  },
+  {
+    "id": "dr-790",
+    "personalInfo": {
+      "firstName": "David",
+      "lastName": "Rodriguez",
+      "contactNumber": "+1-555-234-5678",
+      "email": "david.rodriguez@hospital.org"
+    },
+    "patients": {
+      "active": ["p-456789", "p-567890", "p-678901", "p-789012"],
+      "old": ["p-891234", "p-901234"],
+      "total": 18
+    },
+    "pendingReviews": ["ses-005", "ses-010", "ses-015"]
+  },
+  {
+    "id": "dr-791",
+    "personalInfo": {
+      "firstName": "Aisha",
+      "lastName": "Patel",
+      "contactNumber": "+1-555-345-6789",
+      "email": "aisha.patel@hospital.org"
+    },
+    "patients": {
+      "active": ["p-123789", "p-234890", "p-345901"],
+      "old": ["p-456012", "p-567123"],
+      "total": 15
+    },
+    "pendingReviews": ["ses-007", "ses-014"]
+  },
+  {
+    "id": "dr-792",
+    "personalInfo": {
+      "firstName": "James",
+      "lastName": "Wilson",
+      "contactNumber": "+1-555-456-7890",
+      "email": "james.wilson@hospital.org"
+    },
+    "patients": {
+      "active": ["p-678234", "p-789345", "p-890456", "p-901567"],
+      "old": ["p-012678", "p-123789", "p-234890"],
+      "total": 22
+    },
+    "pendingReviews": ["ses-009", "ses-016", "ses-018"]
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "ses-003",
+    "patientId": "p-123456",
+    "prescriptionId": "pr-001",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "steps": 25,
+        "timeLimit": 720
+      }
+    },
+    "status": "completed",
+    "duration": 1103,
+    "metrics": {
+      "score": 82,
+      "stepsClimbed": 25,
+      "avgSpeed": 1.3,
+      "calories": 45,
+      "personalBest": false,
+      "restPeriods": 2,
+      "restDuration": 68,
+      "heartRate": {
+        "average": 95,
+        "peak": 112,
+        "recovery": 85
+      }
+    },
+    "performance": {
+      "accuracy": 0.78,
+      "steadiness": 0.85,
+      "stamina": 0.76,
+      "rangeOfMotion": 0.82,
+      "symmetry": 0.72
+    },
+    "patientReported": {
+      "painLevel": 2,
+      "exertionLevel": 3,
+      "confidenceLevel": 4,
+      "notes": "Felt more stable today"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-004",
+    "patientId": "p-234567",
+    "prescriptionId": "pr-002",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "catches": 20,
+        "timeLimit": 900
+      }
+    },
+    "status": "completed",
+    "duration": 865,
+    "metrics": {
+      "score": 76,
+      "catchesCompleted": 18,
+      "avgReactionTime": 1.7,
+      "calories": 35,
+      "personalBest": false,
+      "restPeriods": 3,
+      "restDuration": 95,
+      "heartRate": {
+        "average": 88,
+        "peak": 105,
+        "recovery": 82
+      }
+    },
+    "performance": {
+      "accuracy": 0.72,
+      "steadiness": 0.68,
+      "stamina": 0.65,
+      "rangeOfMotion": 0.75,
+      "symmetry": 0.70
+    },
+    "patientReported": {
+      "painLevel": 1,
+      "exertionLevel": 3,
+      "confidenceLevel": 3,
+      "notes": "Had some difficulty with faster targets"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-005",
+    "patientId": "p-234567",
+    "prescriptionId": "pr-002",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "catches": 20,
+        "timeLimit": 900
+      }
+    },
+    "status": "completed",
+    "duration": 845,
+    "metrics": {
+      "score": 79,
+      "catchesCompleted": 20,
+      "avgReactionTime": 1.6,
+      "calories": 38,
+      "personalBest": true,
+      "restPeriods": 2,
+      "restDuration": 75,
+      "heartRate": {
+        "average": 90,
+        "peak": 108,
+        "recovery": 80
+      }
+    },
+    "performance": {
+      "accuracy": 0.75,
+      "steadiness": 0.72,
+      "stamina": 0.68,
+      "rangeOfMotion": 0.78,
+      "symmetry": 0.73
+    },
+    "patientReported": {
+      "painLevel": 1,
+      "exertionLevel": 2,
+      "confidenceLevel": 4,
+      "notes": "Felt smoother today, was able to anticipate movements better"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-007",
+    "patientId": "p-345678",
+    "prescriptionId": "pr-003",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "steps": 20,
+        "timeLimit": 600
+      }
+    },
+    "status": "completed",
+    "duration": 585,
+    "metrics": {
+      "score": 85,
+      "stepsClimbed": 20,
+      "avgSpeed": 1.2,
+      "calories": 42,
+      "personalBest": true,
+      "restPeriods": 1,
+      "restDuration": 45,
+      "heartRate": {
+        "average": 98,
+        "peak": 115,
+        "recovery": 88
+      }
+    },
+    "performance": {
+      "accuracy": 0.83,
+      "steadiness": 0.80,
+      "stamina": 0.85,
+      "rangeOfMotion": 0.76,
+      "symmetry": 0.78
+    },
+    "patientReported": {
+      "painLevel": 3,
+      "exertionLevel": 4,
+      "confidenceLevel": 3,
+      "notes": "Some discomfort at maximum knee flexion, but manageable"
+    },
+    "feedback": {
+      "reviewed": true,
+      "reviewedBy": "dr-789",
+      "reviewDate": "2023-06-20T15:30:00Z",
+      "comments": "Good progress with knee flexion. Consider ice after session for pain management.",
+      "rating": 4,
+      "improvementAreas": ["weight shifting", "knee stability"],
+      "recommendations": "Focus on quality of movement rather than speed",
+      "nextSessionAdjustments": {
+        "difficulty": "maintain",
+        "duration": "maintain",
+        "goals": "maintain"
+      },
+      "progressNotes": "Continue with current protocol"
+    }
+  },
+  {
+    "id": "ses-009",
+    "patientId": "p-456789",
+    "prescriptionId": "pr-004",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "targets": 15,
+        "timeLimit": 600
+      }
+    },
+    "status": "completed",
+    "duration": 545,
+    "metrics": {
+      "score": 81,
+      "targetsHit": 14,
+      "avgReactionTime": 1.8,
+      "calories": 30,
+      "personalBest": false,
+      "restPeriods": 2,
+      "restDuration": 85,
+      "heartRate": {
+        "average": 92,
+        "peak": 110,
+        "recovery": 85
+      }
+    },
+    "performance": {
+      "accuracy": 0.80,
+      "steadiness": 0.75,
+      "stamina": 0.65,
+      "rangeOfMotion": 0.82,
+      "symmetry": 0.78
+    },
+    "patientReported": {
+      "painLevel": 1,
+      "exertionLevel": 3,
+      "confidenceLevel": 4,
+      "notes": "Needed rest breaks due to fatigue, but felt good overall"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-011",
+    "patientId": "p-567890",
+    "prescriptionId": "pr-005",
+    "exerciseCustomization": {
+      "difficulty": "very-easy",
+      "goals": {
+        "distance": 10,
+        "timeLimit": 480
+      }
+    },
+    "status": "completed",
+    "duration": 450,
+    "metrics": {
+      "score": 72,
+      "distanceCovered": 8.5,
+      "avgSpeed": 0.9,
+      "calories": 25,
+      "personalBest": false,
+      "restPeriods": 3,
+      "restDuration": 95,
+      "heartRate": {
+        "average": 85,
+        "peak": 100,
+        "recovery": 80
+      }
+    },
+    "performance": {
+      "accuracy": 0.70,
+      "steadiness": 0.65,
+      "stamina": 0.72,
+      "rangeOfMotion": 0.75,
+      "symmetry": 0.68
+    },
+    "patientReported": {
+      "painLevel": 1,
+      "exertionLevel": 3,
+      "confidenceLevel": 2,
+      "notes": "Felt unsteady at times, especially with side obstacles"
+    },
+    "feedback": {
+      "reviewed": true,
+      "reviewedBy": "dr-790",
+      "reviewDate": "2023-06-25T10:15:00Z",
+      "comments": "Good effort. Consider using wider stance initially to build confidence.",
+      "rating": 3,
+      "improvementAreas": ["lateral stability", "anticipatory balance"],
+      "recommendations": "Continue at current difficulty but with more frequent rest",
+      "nextSessionAdjustments": {
+        "difficulty": "maintain",
+        "duration": "maintain",
+        "goals": "reduce slightly"
+      },
+      "progressNotes": "Showing caution but good progress considering fall history"
+    }
+  },
+  {
+    "id": "ses-013",
+    "patientId": "p-678901",
+    "prescriptionId": "pr-006",
+    "exerciseCustomization": {
+      "difficulty": "moderate",
+      "goals": {
+        "targets": 20,
+        "timeLimit": 720
+      }
+    },
+    "status": "completed",
+    "duration": 705,
+    "metrics": {
+      "score": 77,
+      "targetsHit": 17,
+      "avgReactionTime": 2.1,
+      "calories": 35,
+      "personalBest": false,
+      "restPeriods": 2,
+      "restDuration": 75,
+      "heartRate": {
+        "average": 95,
+        "peak": 112,
+        "recovery": 87
+      }
+    },
+    "performance": {
+      "accuracy": 0.73,
+      "steadiness": 0.76,
+      "stamina": 0.70,
+      "rangeOfMotion": 0.85,
+      "symmetry": 0.75
+    },
+    "patientReported": {
+      "painLevel": 1,
+      "exertionLevel": 3,
+      "confidenceLevel": 3,
+      "notes": "Had trouble with processing speed for faster targets"
+    },
+    "feedback": {
+      "reviewed": true,
+      "reviewedBy": "dr-790",
+      "reviewDate": "2023-06-27T16:30:00Z",
+      "comments": "Good progress with visual tracking. Consider reducing speed to focus on accuracy.",
+      "rating": 4,
+      "improvementAreas": ["processing speed", "visual tracking"],
+      "recommendations": "Add cognitive component gradually",
+      "nextSessionAdjustments": {
+        "difficulty": "maintain",
+        "duration": "maintain",
+        "goals": "maintain"
+      },
+      "progressNotes": "Continue with cognitive rehabilitation coordination"
+    }
+  },
+  {
+    "id": "ses-016",
+    "patientId": "p-789012",
+    "prescriptionId": "pr-007",
+    "exerciseCustomization": {
+      "difficulty": "easy",
+      "goals": {
+        "targets": 15,
+        "timeLimit": 900
+      }
+    },
+    "status": "completed",
+    "duration": 875,
+    "metrics": {
+      "score": 68,
+      "targetsHit": 12,
+      "avgReactionTime": 2.3,
+      "calories": 28,
+      "personalBest": false,
+      "restPeriods": 3,
+      "restDuration": 110,
+      "heartRate": {
+        "average": 90,
+        "peak": 105,
+        "recovery": 85
+      }
+    },
+    "performance": {
+      "accuracy": 0.65,
+      "steadiness": 0.60,
+      "stamina": 0.70,
+      "rangeOfMotion": 0.62,
+      "symmetry": 0.58
+    },
+    "patientReported": {
+      "painLevel": 2,
+      "exertionLevel": 4,
+      "confidenceLevel": 3,
+      "notes": "Reaching for high targets was challenging"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-018",
+    "patientId": "p-890123",
+    "prescriptionId": "pr-008",
+    "exerciseCustomization": {
+      "difficulty": "moderate",
+      "goals": {
+        "steps": 30,
+        "timeLimit": 600
+      }
+    },
+    "status": "completed",
+    "duration": 585,
+    "metrics": {
+      "score": 88,
+      "stepsClimbed": 30,
+      "avgSpeed": 1.8,
+      "calories": 55,
+      "personalBest": true,
+      "restPeriods": 1,
+      "restDuration": 35,
+      "heartRate": {
+        "average": 105,
+        "peak": 125,
+        "recovery": 90
+      }
+    },
+    "performance": {
+      "accuracy": 0.86,
+      "steadiness": 0.85,
+      "stamina": 0.90,
+      "rangeOfMotion": 0.82,
+      "symmetry": 0.80
+    },
+    "patientReported": {
+      "painLevel": 2,
+      "exertionLevel": 4,
+      "confidenceLevel": 4,
+      "notes": "Some mild discomfort but good stability throughout"
+    },
+    "feedback": {
+      "reviewed": false,
+      "reviewedBy": null,
+      "reviewDate": null,
+      "comments": null,
+      "rating": null,
+      "improvementAreas": [],
+      "recommendations": null,
+      "nextSessionAdjustments": {
+        "difficulty": null,
+        "duration": null,
+        "goals": null
+      },
+      "progressNotes": null
+    }
+  },
+  {
+    "id": "ses-019",
+    "patientId": "p-901234",
+    "prescriptionId": "pr-009",
+    "exerciseCustomization": {
+      "difficulty": "very-easy",
+      "goals": {
+        "steps": 15,
+        "timeLimit": 900
+      }
+    },
+    "status": "completed",
+    "duration": 855,
+    "metrics": {
+      "score": 65,
+      "stepsClimbed": 12,
+      "avgSpeed": 0.8,
+      "calories": 30,
+      "personalBest": false,
+      "restPeriods": 4,
+      "restDuration": 150,
+      "heartRate": {
+        "average": 95,
+        "peak": 110,
+        "recovery": 90
+      }
+    },
+    "performance": {
+      "accuracy": 0.62,
+      "steadiness": 0.60,
+      "stamina": 0.55,
+      "rangeOfMotion": 0.65,
+      "symmetry": 0.48
+    },
+    "patientReported": {
+      "painLevel": 2,
+      "exertionLevel": 4,
+      "confidenceLevel": 2,
+      "notes": "Had difficulty with left foot placement, needed frequent rest"
+    },
+    "feedback": {
+      "reviewed": true,
+      "reviewedBy": "dr-791",
+      "reviewDate": "2023-07-05T09:45:00Z",
+      "comments": "Good effort considering level of impairment. Consider more weight shifting practice before next stair session.",
+      "rating": 3,
+      "improvementAreas": ["weight shifting", "left ankle control", "endurance"],
+      "recommendations": "Add additional rest periods as needed",
+      "nextSessionAdjustments": {
+        "difficulty": "maintain",
+        "duration": "maintain",
+        "goals": "reduce slightly"
+      },
+      "progressNotes": "Progress is slow but appropriate for condition"
+    }
+  }
+]

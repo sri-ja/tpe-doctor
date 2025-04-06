@@ -1,0 +1,461 @@
+[
+  {
+    "id": "pr-001",
+    "patientId": "p-123456",
+    "doctorId": "dr-789",
+    "createdDate": "2023-06-12T09:15:00Z",
+    "status": "active",
+    "diagnosis": "Post-stroke rehabilitation",
+    "rehabilitationGoals": [
+      "Improve lower limb strength and balance",
+      "Increase independence in stair navigation"
+    ],
+    "expectedDuration": "12 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-001",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "steps": 25,
+            "timeLimit": 720
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        },
+        "progressionPlan": {
+          "increaseStepsBy": 5,
+          "afterSuccessfulSessions": 3,
+          "maxSteps": 50
+        },
+        "specialInstructions": "Ensure proper hydration before exercise. Take rest if feeling fatigued."
+      },
+      {
+        "exerciseId": "ex-003",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "distance": 15,
+            "timeLimit": 600
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "afternoon"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-001", "ses-002", "ses-003"],
+    "nextReview": "2023-07-03T10:00:00Z"
+  },
+  {
+    "id": "pr-002",
+    "patientId": "p-234567",
+    "doctorId": "dr-789",
+    "createdDate": "2023-06-15T14:30:00Z",
+    "status": "active",
+    "diagnosis": "Parkinson's disease",
+    "rehabilitationGoals": [
+      "Improve movement initiation",
+      "Enhance balance and coordination"
+    ],
+    "expectedDuration": "16 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-005",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "catches": 20,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        },
+        "progressionPlan": {
+          "increaseCatchesBy": 3,
+          "afterSuccessfulSessions": 2,
+          "maxCatches": 40
+        }
+      },
+      {
+        "exerciseId": "ex-006",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "duration": 300,
+            "stabilityScore": 60
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-004", "ses-005", "ses-006"],
+    "nextReview": "2023-07-10T11:00:00Z"
+  },
+  {
+    "id": "pr-003",
+    "patientId": "p-345678",
+    "doctorId": "dr-789",
+    "createdDate": "2023-06-18T10:45:00Z",
+    "status": "active",
+    "diagnosis": "Post-surgical rehabilitation - TKR",
+    "rehabilitationGoals": [
+      "Improve knee range of motion",
+      "Strengthen quadriceps and hamstrings"
+    ],
+    "expectedDuration": "10 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-002",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "steps": 20,
+            "timeLimit": 600
+          }
+        },
+        "schedule": {
+          "frequency": "4 times per week",
+          "preferredDays": ["Monday", "Tuesday", "Thursday", "Saturday"],
+          "preferredTimeOfDay": "afternoon"
+        },
+        "progressionPlan": {
+          "increaseStepsBy": 5,
+          "afterSuccessfulSessions": 2,
+          "maxSteps": 50
+        }
+      }
+    ],
+    "sessionHistory": ["ses-007", "ses-008"],
+    "nextReview": "2023-07-05T09:30:00Z"
+  },
+  {
+    "id": "pr-004",
+    "patientId": "p-456789",
+    "doctorId": "dr-790",
+    "createdDate": "2023-06-20T13:15:00Z",
+    "status": "active",
+    "diagnosis": "Multiple sclerosis",
+    "rehabilitationGoals": [
+      "Improve endurance",
+      "Enhance coordination",
+      "Manage fatigue"
+    ],
+    "expectedDuration": "ongoing",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-004",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "targets": 15,
+            "timeLimit": 600
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        }
+      },
+      {
+        "exerciseId": "ex-007",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "distance": 300,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-009", "ses-010"],
+    "nextReview": "2023-07-15T10:00:00Z"
+  },
+  {
+    "id": "pr-005",
+    "patientId": "p-567890",
+    "doctorId": "dr-790",
+    "createdDate": "2023-06-22T09:00:00Z",
+    "status": "active",
+    "diagnosis": "Balance disorder with history of falls",
+    "rehabilitationGoals": [
+      "Improve balance reactions",
+      "Increase confidence in movement"
+    ],
+    "expectedDuration": "8 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-003",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "distance": 10,
+            "timeLimit": 480
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        }
+      },
+      {
+        "exerciseId": "ex-006",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "duration": 240,
+            "stabilityScore": 50
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-011", "ses-012"],
+    "nextReview": "2023-07-12T11:30:00Z"
+  },
+  {
+    "id": "pr-006",
+    "patientId": "p-678901",
+    "doctorId": "dr-790",
+    "createdDate": "2023-06-25T15:45:00Z",
+    "status": "active",
+    "diagnosis": "Traumatic brain injury recovery",
+    "rehabilitationGoals": [
+      "Improve coordination and reaction time",
+      "Enhance cognitive processing during movement"
+    ],
+    "expectedDuration": "14 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-004",
+        "customization": {
+          "difficulty": "moderate",
+          "goals": {
+            "targets": 20,
+            "timeLimit": 720
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "afternoon"
+        }
+      },
+      {
+        "exerciseId": "ex-005",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "catches": 15,
+            "timeLimit": 600
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "afternoon"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-013", "ses-014", "ses-015"],
+    "nextReview": "2023-07-20T14:00:00Z"
+  },
+  {
+    "id": "pr-007",
+    "patientId": "p-789012",
+    "doctorId": "dr-790",
+    "createdDate": "2023-06-28T11:30:00Z",
+    "status": "active",
+    "diagnosis": "Incomplete spinal cord injury",
+    "rehabilitationGoals": [
+      "Improve upper extremity function",
+      "Enhance trunk control and balance"
+    ],
+    "expectedDuration": "20 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-004",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "targets": 15,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "4 times per week",
+          "preferredDays": ["Monday", "Tuesday", "Thursday", "Saturday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-016", "ses-017"],
+    "nextReview": "2023-07-25T10:30:00Z"
+  },
+  {
+    "id": "pr-008",
+    "patientId": "p-890123",
+    "doctorId": "dr-791",
+    "createdDate": "2023-06-30T14:00:00Z",
+    "status": "active",
+    "diagnosis": "Sports injury rehabilitation - ACL reconstruction",
+    "rehabilitationGoals": [
+      "Restore knee stability",
+      "Improve proprioception",
+      "Return to sports"
+    ],
+    "expectedDuration": "16 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-002",
+        "customization": {
+          "difficulty": "moderate",
+          "goals": {
+            "steps": 30,
+            "timeLimit": 600
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "evening"
+        }
+      },
+      {
+        "exerciseId": "ex-003",
+        "customization": {
+          "difficulty": "moderate",
+          "goals": {
+            "distance": 25,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "evening"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-018"],
+    "nextReview": "2023-07-30T15:00:00Z"
+  },
+  {
+    "id": "pr-009",
+    "patientId": "p-901234",
+    "doctorId": "dr-791",
+    "createdDate": "2023-07-02T10:15:00Z",
+    "status": "active",
+    "diagnosis": "Post-stroke rehabilitation",
+    "rehabilitationGoals": [
+      "Improve left-sided strength",
+      "Enhance balance and mobility"
+    ],
+    "expectedDuration": "18 weeks",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-001",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "steps": 15,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        }
+      },
+      {
+        "exerciseId": "ex-007",
+        "customization": {
+          "difficulty": "very-easy",
+          "goals": {
+            "distance": 200,
+            "timeLimit": 1200
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": ["ses-019", "ses-020"],
+    "nextReview": "2023-07-29T09:00:00Z"
+  },
+  {
+    "id": "pr-015",
+    "patientId": "p-012345",
+    "doctorId": "dr-792",
+    "createdDate": "2023-07-05T13:30:00Z",
+    "status": "active",
+    "diagnosis": "Parkinson's disease",
+    "rehabilitationGoals": [
+      "Improve movement initiation",
+      "Reduce freezing episodes",
+      "Enhance turning strategies"
+    ],
+    "expectedDuration": "ongoing",
+    "prescribedExercises": [
+      {
+        "exerciseId": "ex-003",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "distance": 20,
+            "timeLimit": 900
+          }
+        },
+        "schedule": {
+          "frequency": "3 times per week",
+          "preferredDays": ["Monday", "Wednesday", "Friday"],
+          "preferredTimeOfDay": "morning"
+        }
+      },
+      {
+        "exerciseId": "ex-007",
+        "customization": {
+          "difficulty": "easy",
+          "goals": {
+            "distance": 300,
+            "timeLimit": 1200
+          }
+        },
+        "schedule": {
+          "frequency": "2 times per week",
+          "preferredDays": ["Tuesday", "Thursday"],
+          "preferredTimeOfDay": "morning"
+        }
+      }
+    ],
+    "sessionHistory": [],
+    "nextReview": "2023-08-05T10:00:00Z"
+  }
+]

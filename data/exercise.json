@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ex-001",
+    "name": "Temple Stairs Climbing",
+    "type": "motor-skills",
+    "description": "Virtual temple stair climbing exercise designed to enhance motor skills, balance, and coordination.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/temple-stairs-thumb.png",
+      "banner": "/assets/images/exercises/temple-stairs-banner.png"
+    },
+    "targetBodyParts": ["lower-limbs", "core", "balance"],
+    "difficulty": "easy",
+    "estimatedDuration": "10-15 minutes",
+    "goals": {
+      "steps": 30,
+      "timeLimit": 900
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "easy",
+        "affects": ["step height", "step width", "climbing speed"]
+      }
+    }
+  },
+  {
+    "id": "ex-002",
+    "name": "Stair Climbing Practice",
+    "type": "gross-motor",
+    "description": "Improve leg strength, balance, and endurance through simulated stair climbing exercises.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/stairs-thumb.png",
+      "banner": "/assets/images/exercises/stairs-banner.png"
+    },
+    "targetBodyParts": ["lower-limbs", "core", "balance"],
+    "difficulty": "moderate",
+    "estimatedDuration": "10-20 minutes",
+    "goals": {
+      "steps": 40,
+      "timeLimit": 1200
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "moderate",
+        "affects": ["step height", "step count", "climbing speed"]
+      }
+    }
+  },
+  {
+    "id": "ex-003",
+    "name": "Obstacle Course Navigation",
+    "type": "mobility",
+    "description": "Improve motor planning, balance, and coordination by navigating through virtual obstacles.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/obstacle-course-thumb.png",
+      "banner": "/assets/images/exercises/obstacle-course-banner.png"
+    },
+    "targetBodyParts": ["full-body", "core", "balance"],
+    "difficulty": "easy",
+    "estimatedDuration": "15-25 minutes",
+    "goals": {
+      "distance": 30,
+      "timeLimit": 1500
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "easy",
+        "affects": ["obstacle density", "path complexity", "movement speed"]
+      }
+    }
+  },
+  {
+    "id": "ex-004",
+    "name": "Target Reaching",
+    "type": "upper-limb",
+    "description": "Improve arm control, coordination, and range of motion through target reaching exercises.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/target-reaching-thumb.png",
+      "banner": "/assets/images/exercises/target-reaching-banner.png"
+    },
+    "targetBodyParts": ["upper-limbs", "shoulders", "core"],
+    "difficulty": "easy",
+    "estimatedDuration": "15-20 minutes",
+    "goals": {
+      "targets": 25,
+      "timeLimit": 900
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "easy",
+        "affects": ["target size", "target distance", "movement speed"]
+      }
+    }
+  },
+  {
+    "id": "ex-005",
+    "name": "Ball Toss Coordination",
+    "type": "hand-eye-coordination",
+    "description": "Enhance hand-eye coordination and reaction time through virtual ball tossing activities.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/ball-toss-thumb.png",
+      "banner": "/assets/images/exercises/ball-toss-banner.png"
+    },
+    "targetBodyParts": ["upper-limbs", "core", "reaction-time"],
+    "difficulty": "moderate",
+    "estimatedDuration": "10-20 minutes",
+    "goals": {
+      "catches": 30,
+      "timeLimit": 1200
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "moderate",
+        "affects": ["ball speed", "trajectory complexity", "ball size"]
+      }
+    }
+  },
+  {
+    "id": "ex-006",
+    "name": "Balance Board Challenge",
+    "type": "balance",
+    "description": "Improve balance, stability and proprioception through dynamic balance board exercises.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/balance-board-thumb.png",
+      "banner": "/assets/images/exercises/balance-board-banner.png"
+    },
+    "targetBodyParts": ["lower-limbs", "ankles", "core"],
+    "difficulty": "moderate",
+    "estimatedDuration": "10-15 minutes",
+    "goals": {
+      "duration": 600,
+      "stabilityScore": 80
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "moderate",
+        "affects": ["board stability", "tilt sensitivity", "challenge duration"]
+      }
+    }
+  },
+  {
+    "id": "ex-007",
+    "name": "Virtual Walking Path",
+    "type": "mobility",
+    "description": "Practice walking pattern, stride length and gait consistency in virtual scenic environments.",
+    "image": {
+      "thumbnail": "/assets/images/exercises/walking-path-thumb.png",
+      "banner": "/assets/images/exercises/walking-path-banner.png"
+    },
+    "targetBodyParts": ["lower-limbs", "gait", "endurance"],
+    "difficulty": "easy",
+    "estimatedDuration": "15-25 minutes",
+    "goals": {
+      "distance": 500,
+      "timeLimit": 1500
+    },
+    "customizationOptions": {
+      "difficulty": {
+        "options": ["very-easy", "easy", "moderate", "challenging", "difficult"],
+        "default": "easy",
+        "affects": ["terrain type", "incline", "walking speed"]
+      }
+    }
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "p-123456",
+    "personalInfo": {
+      "firstName": "Michael",
+      "lastName": "Chen",
+      "age": 45,
+      "contactNumber": "+1-555-123-4567",
+      "email": "michael.chen@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Post-stroke right hemiparesis",
+      "primaryCondition": "Ischemic stroke affecting left hemisphere",
+      "secondaryConditions": ["mild hypertension", "decreased balance"],
+      "functionalLimitations": ["reduced right-side strength", "impaired fine motor control", "gait instability"],
+      "notes": "Patient demonstrates good cognitive function. Initially required assistance with ambulation, now progressing to independent mobility with minimal support."
+    },
+    "recoveryStatus": {
+      "overallProgress": 65
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-001"],
+      "completedPrescriptionIds": [],
+      "currentGoals": [
+        "Independent stair navigation",
+        "Walk 500m without assistance",
+        "Return to light household activities"
+      ]
+    }
+  },
+  {
+    "id": "p-234567",
+    "personalInfo": {
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "age": 68,
+      "contactNumber": "+1-555-234-5678",
+      "email": "emma.wilson@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Parkinson's disease",
+      "primaryCondition": "Bradykinesia and resting tremor",
+      "secondaryConditions": ["mild cognitive impairment", "postural instability"],
+      "functionalLimitations": ["difficulty initiating movement", "reduced balance", "tremor during activities"],
+      "notes": "Patient responds well to rhythmic cues. Shows good compliance with exercise regimen."
+    },
+    "recoveryStatus": {
+      "overallProgress": 45
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-002"],
+      "completedPrescriptionIds": ["pr-010"],
+      "currentGoals": [
+        "Improve movement initiation",
+        "Enhance balance for safer mobility",
+        "Reduce fall risk"
+      ]
+    }
+  },
+  {
+    "id": "p-345678",
+    "personalInfo": {
+      "firstName": "Robert",
+      "lastName": "Garcia",
+      "age": 52,
+      "contactNumber": "+1-555-345-6789",
+      "email": "robert.garcia@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Post-surgical rehabilitation",
+      "primaryCondition": "Total knee replacement (right)",
+      "secondaryConditions": ["osteoarthritis", "mild hypertension"],
+      "functionalLimitations": ["limited knee flexion", "reduced lower limb strength", "gait deviation"],
+      "notes": "Patient is motivated but needs encouragement with more challenging exercises. Pain well-controlled with current medication."
+    },
+    "recoveryStatus": {
+      "overallProgress": 75
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-003"],
+      "completedPrescriptionIds": ["pr-011"],
+      "currentGoals": [
+        "Improve knee range of motion to 120 degrees",
+        "Return to recreational walking",
+        "Manage stairs without support"
+      ]
+    }
+  },
+  {
+    "id": "p-456789",
+    "personalInfo": {
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "age": 34,
+      "contactNumber": "+1-555-456-7890",
+      "email": "sophia.martinez@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Multiple sclerosis",
+      "primaryCondition": "Relapsing-remitting MS",
+      "secondaryConditions": ["fatigue", "muscle weakness", "mild spasticity"],
+      "functionalLimitations": ["reduced endurance", "balance impairment", "intermittent coordination issues"],
+      "notes": "Patient experiences fluctuating symptoms. Exercise tolerance varies day-to-day. Best performance in morning sessions."
+    },
+    "recoveryStatus": {
+      "overallProgress": 60
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-004"],
+      "completedPrescriptionIds": ["pr-012"],
+      "currentGoals": [
+        "Improve fatigue management",
+        "Enhance coordination during daily activities",
+        "Maintain current level of independence"
+      ]
+    }
+  },
+  {
+    "id": "p-567890",
+    "personalInfo": {
+      "firstName": "James",
+      "lastName": "Williams",
+      "age": 71,
+      "contactNumber": "+1-555-567-8901",
+      "email": "james.williams@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Balance disorder with history of falls",
+      "primaryCondition": "Vestibular hypofunction",
+      "secondaryConditions": ["orthostatic hypotension", "mild peripheral neuropathy"],
+      "functionalLimitations": ["poor dynamic balance", "gait instability", "fear of falling"],
+      "notes": "Patient highly motivated but anxious about falling. Benefits from close supervision during challenging balance tasks."
+    },
+    "recoveryStatus": {
+      "overallProgress": 50
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-005"],
+      "completedPrescriptionIds": [],
+      "currentGoals": [
+        "Reduce fall risk",
+        "Increase confidence with outdoor mobility",
+        "Improve response to balance perturbations"
+      ]
+    }
+  },
+  {
+    "id": "p-678901",
+    "personalInfo": {
+      "firstName": "Olivia",
+      "lastName": "Johnson",
+      "age": 42,
+      "contactNumber": "+1-555-678-9012",
+      "email": "olivia.johnson@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Traumatic brain injury recovery",
+      "primaryCondition": "Moderate TBI from MVA",
+      "secondaryConditions": ["post-concussion syndrome", "mild cognitive impairment", "right shoulder injury"],
+      "functionalLimitations": ["reduced processing speed", "attention deficits", "upper extremity incoordination"],
+      "notes": "Patient shows good insight into deficits. Working with both physical and cognitive rehabilitation teams."
+    },
+    "recoveryStatus": {
+      "overallProgress": 55
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-006"],
+      "completedPrescriptionIds": ["pr-013"],
+      "currentGoals": [
+        "Improve dual-task performance",
+        "Enhance shoulder function",
+        "Return to part-time work"
+      ]
+    }
+  },
+  {
+    "id": "p-789012",
+    "personalInfo": {
+      "firstName": "Ethan",
+      "lastName": "Brown",
+      "age": 57,
+      "contactNumber": "+1-555-789-0123",
+      "email": "ethan.brown@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Incomplete spinal cord injury",
+      "primaryCondition": "C6-C7 incomplete SCI",
+      "secondaryConditions": ["neuropathic pain", "spasticity"],
+      "functionalLimitations": ["reduced hand function", "decreased lower extremity strength", "impaired balance"],
+      "notes": "Patient has made significant functional gains over past 3 months. Upper extremity function continues to improve."
+    },
+    "recoveryStatus": {
+      "overallProgress": 40
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-007"],
+      "completedPrescriptionIds": ["pr-014"],
+      "currentGoals": [
+        "Improve hand dexterity",
+        "Enhance trunk control",
+        "Increase functional independence at home"
+      ]
+    }
+  },
+  {
+    "id": "p-890123",
+    "personalInfo": {
+      "firstName": "Ava",
+      "lastName": "Taylor",
+      "age": 29,
+      "contactNumber": "+1-555-890-1234",
+      "email": "ava.taylor@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Sports injury rehabilitation",
+      "primaryCondition": "ACL reconstruction (left)",
+      "secondaryConditions": ["meniscal repair", "patellofemoral pain"],
+      "functionalLimitations": ["decreased knee stability", "quadriceps weakness", "limited confidence with pivoting"],
+      "notes": "Competitive recreational athlete, highly motivated for return to sports. Occasionally pushes too hard and needs guidance on appropriate progression."
+    },
+    "recoveryStatus": {
+      "overallProgress": 80
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-008"],
+      "completedPrescriptionIds": [],
+      "currentGoals": [
+        "Return to running",
+        "Restore full knee confidence",
+        "Progress to sport-specific training"
+      ]
+    }
+  },
+  {
+    "id": "p-901234",
+    "personalInfo": {
+      "firstName": "Noah",
+      "lastName": "Lee",
+      "age": 76,
+      "contactNumber": "+1-555-901-2345",
+      "email": "noah.lee@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Post-stroke rehabilitation",
+      "primaryCondition": "Left hemiparesis following hemorrhagic stroke",
+      "secondaryConditions": ["diabetes type 2", "aphasia", "depression"],
+      "functionalLimitations": ["left sided weakness", "impaired balance", "difficulty with stairs"],
+      "notes": "Patient has made slow but steady progress. Improved walking endurance over past month. Communication gradually improving."
+    },
+    "recoveryStatus": {
+      "overallProgress": 35
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-009"],
+      "completedPrescriptionIds": [],
+      "currentGoals": [
+        "Independent household mobility",
+        "Safe bathroom transfers",
+        "Community ambulation with cane"
+      ]
+    }
+  },
+  {
+    "id": "p-012345",
+    "personalInfo": {
+      "firstName": "Isabella",
+      "lastName": "Smith",
+      "age": 63,
+      "contactNumber": "+1-555-012-3456",
+      "email": "isabella.smith@example.com"
+    },
+    "medicalInfo": {
+      "diagnosis": "Parkinson's disease",
+      "primaryCondition": "Moderate stage with freezing of gait",
+      "secondaryConditions": ["osteoporosis", "anxiety"],
+      "functionalLimitations": ["movement initiation difficulties", "shuffling gait", "poor balance during turns"],
+      "notes": "Patient responds well to visual and auditory cues. Shows significant improvement with rhythmic activities."
+    },
+    "recoveryStatus": {
+      "overallProgress": 55
+    },
+    "treatmentPlan": {
+      "activePrescriptionIds": ["pr-015"],
+      "completedPrescriptionIds": [],
+      "currentGoals": [
+        "Reduce freezing episodes",
+        "Improve turning strategies",
+        "Enhance overall mobility confidence"
+      ]
+    }
+  }
+]
